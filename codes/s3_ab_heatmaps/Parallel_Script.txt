@@ -1,0 +1,235 @@
+# This is the script for running the simulations in parallel
+# The total number of tasks are 10*21= 210 simulations
+# Please change the value of *a* accordingly, and change directory as one set of the simulation is done.
+cd sims/a0
+cd b0
+python StoCh_01.py a=0.0 b=0.0 &
+python StoCh_02.py a=0.0 b=0.0 &
+python StoCh_03.py a=0.0 b=0.0 &
+python StoCh_04.py a=0.0 b=0.0 &
+python StoCh_05.py a=0.0 b=0.0 &
+python StoCh_06.py a=0.0 b=0.0 &
+python StoCh_07.py a=0.0 b=0.0 &
+python StoCh_08.py a=0.0 b=0.0 &
+python StoCh_09.py a=0.0 b=0.0 &
+python StoCh_10.py a=0.0 b=0.0 &
+cd ../b0.05
+python StoCh_01.py a=0.0 b=0.05 &
+python StoCh_02.py a=0.0 b=0.05 &
+python StoCh_03.py a=0.0 b=0.05 &
+python StoCh_04.py a=0.0 b=0.05 &
+python StoCh_05.py a=0.0 b=0.05 &
+python StoCh_06.py a=0.0 b=0.05 &
+python StoCh_07.py a=0.0 b=0.05 &
+python StoCh_08.py a=0.0 b=0.05 &
+python StoCh_09.py a=0.0 b=0.05 &
+python StoCh_10.py a=0.0 b=0.05 &
+cd ../b0.1
+python StoCh_01.py a=0.0 b=0.1 &
+python StoCh_02.py a=0.0 b=0.1 &
+python StoCh_03.py a=0.0 b=0.1 &
+python StoCh_04.py a=0.0 b=0.1 &
+python StoCh_05.py a=0.0 b=0.1 &
+python StoCh_06.py a=0.0 b=0.1 &
+python StoCh_07.py a=0.0 b=0.1 &
+python StoCh_08.py a=0.0 b=0.1 &
+python StoCh_09.py a=0.0 b=0.1 &
+python StoCh_10.py a=0.0 b=0.1 &
+cd ../b0.15
+python StoCh_01.py a=0.0 b=0.15 &
+python StoCh_02.py a=0.0 b=0.15 &
+python StoCh_03.py a=0.0 b=0.15 &
+python StoCh_04.py a=0.0 b=0.15 &
+python StoCh_05.py a=0.0 b=0.15 &
+python StoCh_06.py a=0.0 b=0.15 &
+python StoCh_07.py a=0.0 b=0.15 &
+python StoCh_08.py a=0.0 b=0.15 &
+python StoCh_09.py a=0.0 b=0.15 &
+python StoCh_10.py a=0.0 b=0.15 &
+cd ../b0.2
+python StoCh_01.py a=0.0 b=0.2 &
+python StoCh_02.py a=0.0 b=0.2 &
+python StoCh_03.py a=0.0 b=0.2 &
+python StoCh_04.py a=0.0 b=0.2 &
+python StoCh_05.py a=0.0 b=0.2 &
+python StoCh_06.py a=0.0 b=0.2 &
+python StoCh_07.py a=0.0 b=0.2 &
+python StoCh_08.py a=0.0 b=0.2 &
+python StoCh_09.py a=0.0 b=0.2 &
+python StoCh_10.py a=0.0 b=0.2 &
+cd ../b0.25
+python StoCh_01.py a=0.0 b=0.25 &
+python StoCh_02.py a=0.0 b=0.25 &
+python StoCh_03.py a=0.0 b=0.25 &
+python StoCh_04.py a=0.0 b=0.25 &
+python StoCh_05.py a=0.0 b=0.25 &
+python StoCh_06.py a=0.0 b=0.25 &
+python StoCh_07.py a=0.0 b=0.25 &
+python StoCh_08.py a=0.0 b=0.25 &
+python StoCh_09.py a=0.0 b=0.25 &
+python StoCh_10.py a=0.0 b=0.25 &
+cd ../b0.3
+python StoCh_01.py a=0.0 b=0.3 &
+python StoCh_02.py a=0.0 b=0.3 &
+python StoCh_03.py a=0.0 b=0.3 &
+python StoCh_04.py a=0.0 b=0.3 &
+python StoCh_05.py a=0.0 b=0.3 &
+python StoCh_06.py a=0.0 b=0.3 &
+python StoCh_07.py a=0.0 b=0.3 &
+python StoCh_08.py a=0.0 b=0.3 &
+python StoCh_09.py a=0.0 b=0.3 &
+python StoCh_10.py a=0.0 b=0.3 &
+cd ../b0.35
+python StoCh_01.py a=0.0 b=0.35 &
+python StoCh_02.py a=0.0 b=0.35 &
+python StoCh_03.py a=0.0 b=0.35 &
+python StoCh_04.py a=0.0 b=0.35 &
+python StoCh_05.py a=0.0 b=0.35 &
+python StoCh_06.py a=0.0 b=0.35 &
+python StoCh_07.py a=0.0 b=0.35 &
+python StoCh_08.py a=0.0 b=0.35 &
+python StoCh_09.py a=0.0 b=0.35 &
+python StoCh_10.py a=0.0 b=0.35 &
+cd ../b0.4
+python StoCh_01.py a=0.0 b=0.4 &
+python StoCh_02.py a=0.0 b=0.4 &
+python StoCh_03.py a=0.0 b=0.4 &
+python StoCh_04.py a=0.0 b=0.4 &
+python StoCh_05.py a=0.0 b=0.4 &
+python StoCh_06.py a=0.0 b=0.4 &
+python StoCh_07.py a=0.0 b=0.4 &
+python StoCh_08.py a=0.0 b=0.4 &
+python StoCh_09.py a=0.0 b=0.4 &
+python StoCh_10.py a=0.0 b=0.4 &
+cd ../b0.45
+python StoCh_01.py a=0.0 b=0.45 &
+python StoCh_02.py a=0.0 b=0.45 &
+python StoCh_03.py a=0.0 b=0.45 &
+python StoCh_04.py a=0.0 b=0.45 &
+python StoCh_05.py a=0.0 b=0.45 &
+python StoCh_06.py a=0.0 b=0.45 &
+python StoCh_07.py a=0.0 b=0.45 &
+python StoCh_08.py a=0.0 b=0.45 &
+python StoCh_09.py a=0.0 b=0.45 &
+python StoCh_10.py a=0.0 b=0.45 &
+cd ../b0.5
+python StoCh_01.py a=0.0 b=0.5 &
+python StoCh_02.py a=0.0 b=0.5 &
+python StoCh_03.py a=0.0 b=0.5 &
+python StoCh_04.py a=0.0 b=0.5 &
+python StoCh_05.py a=0.0 b=0.5 &
+python StoCh_06.py a=0.0 b=0.5 &
+python StoCh_07.py a=0.0 b=0.5 &
+python StoCh_08.py a=0.0 b=0.5 &
+python StoCh_09.py a=0.0 b=0.5 &
+python StoCh_10.py a=0.0 b=0.5 &
+cd ../b0.55
+python StoCh_01.py a=0.0 b=0.55 &
+python StoCh_02.py a=0.0 b=0.55 &
+python StoCh_03.py a=0.0 b=0.55 &
+python StoCh_04.py a=0.0 b=0.55 &
+python StoCh_05.py a=0.0 b=0.55 &
+python StoCh_06.py a=0.0 b=0.55 &
+python StoCh_07.py a=0.0 b=0.55 &
+python StoCh_08.py a=0.0 b=0.55 &
+python StoCh_09.py a=0.0 b=0.55 &
+python StoCh_10.py a=0.0 b=0.55 &
+cd ../b0.6
+python StoCh_01.py a=0.0 b=0.6 &
+python StoCh_02.py a=0.0 b=0.6 &
+python StoCh_03.py a=0.0 b=0.6 &
+python StoCh_04.py a=0.0 b=0.6 &
+python StoCh_05.py a=0.0 b=0.6 &
+python StoCh_06.py a=0.0 b=0.6 &
+python StoCh_07.py a=0.0 b=0.6 &
+python StoCh_08.py a=0.0 b=0.6 &
+python StoCh_09.py a=0.0 b=0.6 &
+python StoCh_10.py a=0.0 b=0.6 &
+cd ../b0.65
+python StoCh_01.py a=0.0 b=0.65 &
+python StoCh_02.py a=0.0 b=0.65 &
+python StoCh_03.py a=0.0 b=0.65 &
+python StoCh_04.py a=0.0 b=0.65 &
+python StoCh_05.py a=0.0 b=0.65 &
+python StoCh_06.py a=0.0 b=0.65 &
+python StoCh_07.py a=0.0 b=0.65 &
+python StoCh_08.py a=0.0 b=0.65 &
+python StoCh_09.py a=0.0 b=0.65 &
+python StoCh_10.py a=0.0 b=0.65 &
+cd ../b0.7
+python StoCh_01.py a=0.0 b=0.7 &
+python StoCh_02.py a=0.0 b=0.7 &
+python StoCh_03.py a=0.0 b=0.7 &
+python StoCh_04.py a=0.0 b=0.7 &
+python StoCh_05.py a=0.0 b=0.7 &
+python StoCh_06.py a=0.0 b=0.7 &
+python StoCh_07.py a=0.0 b=0.7 &
+python StoCh_08.py a=0.0 b=0.7 &
+python StoCh_09.py a=0.0 b=0.7 &
+python StoCh_10.py a=0.0 b=0.7 &
+cd ../b0.75
+python StoCh_01.py a=0.0 b=0.75 &
+python StoCh_02.py a=0.0 b=0.75 &
+python StoCh_03.py a=0.0 b=0.75 &
+python StoCh_04.py a=0.0 b=0.75 &
+python StoCh_05.py a=0.0 b=0.75 &
+python StoCh_06.py a=0.0 b=0.75 &
+python StoCh_07.py a=0.0 b=0.75 &
+python StoCh_08.py a=0.0 b=0.75 &
+python StoCh_09.py a=0.0 b=0.75 &
+python StoCh_10.py a=0.0 b=0.75 &
+cd ../b0.8
+python StoCh_01.py a=0.0 b=0.8 &
+python StoCh_02.py a=0.0 b=0.8 &
+python StoCh_03.py a=0.0 b=0.8 &
+python StoCh_04.py a=0.0 b=0.8 &
+python StoCh_05.py a=0.0 b=0.8 &
+python StoCh_06.py a=0.0 b=0.8 &
+python StoCh_07.py a=0.0 b=0.8 &
+python StoCh_08.py a=0.0 b=0.8 &
+python StoCh_09.py a=0.0 b=0.8 &
+python StoCh_10.py a=0.0 b=0.8 &
+cd ../b0.85
+python StoCh_01.py a=0.0 b=0.85 &
+python StoCh_02.py a=0.0 b=0.85 &
+python StoCh_03.py a=0.0 b=0.85 &
+python StoCh_04.py a=0.0 b=0.85 &
+python StoCh_05.py a=0.0 b=0.85 &
+python StoCh_06.py a=0.0 b=0.85 &
+python StoCh_07.py a=0.0 b=0.85 &
+python StoCh_08.py a=0.0 b=0.85 &
+python StoCh_09.py a=0.0 b=0.85 &
+python StoCh_10.py a=0.0 b=0.85 &
+cd ../b0.9
+python StoCh_01.py a=0.0 b=0.9 &
+python StoCh_02.py a=0.0 b=0.9 &
+python StoCh_03.py a=0.0 b=0.9 &
+python StoCh_04.py a=0.0 b=0.9 &
+python StoCh_05.py a=0.0 b=0.9 &
+python StoCh_06.py a=0.0 b=0.9 &
+python StoCh_07.py a=0.0 b=0.9 &
+python StoCh_08.py a=0.0 b=0.9 &
+python StoCh_09.py a=0.0 b=0.9 &
+python StoCh_10.py a=0.0 b=0.9 &
+cd ../b0.95
+python StoCh_01.py a=0.0 b=0.95 &
+python StoCh_02.py a=0.0 b=0.95 &
+python StoCh_03.py a=0.0 b=0.95 &
+python StoCh_04.py a=0.0 b=0.95 &
+python StoCh_05.py a=0.0 b=0.95 &
+python StoCh_06.py a=0.0 b=0.95 &
+python StoCh_07.py a=0.0 b=0.95 &
+python StoCh_08.py a=0.0 b=0.95 &
+python StoCh_09.py a=0.0 b=0.95 &
+python StoCh_10.py a=0.0 b=0.95 &
+cd ../b1
+python StoCh_01.py a=0.0 b=1.0 &
+python StoCh_02.py a=0.0 b=1.0 &
+python StoCh_03.py a=0.0 b=1.0 &
+python StoCh_04.py a=0.0 b=1.0 &
+python StoCh_05.py a=0.0 b=1.0 &
+python StoCh_06.py a=0.0 b=1.0 &
+python StoCh_07.py a=0.0 b=1.0 &
+python StoCh_08.py a=0.0 b=1.0 &
+python StoCh_09.py a=0.0 b=1.0 &
+python StoCh_10.py a=0.0 b=1.0 &
